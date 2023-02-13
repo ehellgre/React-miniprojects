@@ -1,3 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
+    margin: 0;
     font-family: 'Inter', sans-serif;
+    background-color: #282D35;
+}
+
+
+/* NAV */
+.nav--icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 7px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    height: 110px;
+    padding: 30px 25px;
+}
+
+.nav--logo_text, .nav--title {
+    margin: 0;
+
+}
+
+.nav--logo_text {
+    margin-right: auto;
+    color: #61DAFB;
+    font-size: 22px;
+}
+
+.nav--title {
+    color: floralwhite;
+    font-weight: 600;
+}
+
+/* MAIN */
+main {
+    color: floralwhite;
+    padding: 30px 25px;
+    background-image: url(./images/logo192.png);
+    background-repeat:no-repeat;
+    background-position: right 50%;
+}
+
+.main--fun_facts_text {
+    letter-spacing: -0.05em;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.main--fun_facts {
+    margin: 20px 0;
+    max-width: 400px;
+}
+
+.main--fun_facts > li {
+    padding-block: 10px;
+}
+
+.main--fun_facts > li::marker {
+    color: #61DAFB;
+    font-size: 1,3em;
 }

@@ -12,9 +12,11 @@ function Info() {
             <div className="btn-wrapper">
                 <a href="https://www.linkedin.com/in/emilhellgren/" className="personal-btn">
                     <FaLinkedin size={24} style={{color: "#FFFFFF"}}/>
+                    <span className="icon_text">LinkedIn</span>
                 </a>
-                <a href="mailto:emil.hellgrenn@gmail.com" className="personal-btn personal-btn2" SocialIcon url="">
+                <a href="mailto:emil.hellgrenn@gmail.com" className="personal-btn personal-btn2">
                     <FaEnvelope size={24} style={{color: "#000000"}} />
+                    <span className="icon_text">Email</span>
                 </a>
             </div>
         </div>

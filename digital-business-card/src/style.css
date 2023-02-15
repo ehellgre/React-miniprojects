@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #21272A;
+}
+
+/* INFO SECTION */
+
+
+.personal {
+    align-items: center;
+    background-color: #21222A;
+    margin: auto;
+    margin-top: 70px;
+    height: 800px;
+    width: 350px;
+    border-radius: 20px;
+    display: flex; /* add this */
+    flex-direction: column;
+    
+}
+
+.personal-image {
+    height: 350px;
+    width: 348px;
+    size: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.personal-name {
+    margin-bottom: 5px;
+    color: #ffff;
+}
+
+.personal-title {
+    margin-top: 0px;
+    color: #0077b5;
+}
+
+.btn-wrapper {
+    display: flex;
+    
+}
+
+.personal-btn {
+    padding: 8px 12px;
+    margin: 0px 10px;
+    background-color: #0077b5;
+    border-radius: 16px;
+    text-decoration: none;
+
+}
+
+.personal-btn2 {
+    background-color: #ffff;
+}

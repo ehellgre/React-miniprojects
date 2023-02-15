@@ -71,3 +71,27 @@ body {
     margin-left: 6px;
     
 }
+
+/* ABOUT SECTION */
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: white;
+    margin-left: -60px;
+    margin-top: 15px;
+
+}
+
+.about-section p {
+    margin-top: -15px;
+    color: #A6A1AB;
+}
+
+.about-headers {
+    font-weight: normal;
+    font-size: 20px;
+
+}
+
+

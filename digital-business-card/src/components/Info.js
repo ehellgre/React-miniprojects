@@ -1,6 +1,7 @@
 import React from "react";
 import photo from "../images/THIS_edited.jpg"
 import { FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import About from "./About";
 
 function Info() {
     
@@ -19,6 +20,7 @@ function Info() {
                     <span className="icon_text">Email</span>
                 </a>
             </div>
+            <About />
         </div>
     )
 }

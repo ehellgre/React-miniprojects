@@ -21,7 +21,7 @@ body {
     border-radius: 20px;
     display: flex; /* add this */
     flex-direction: column;
-    
+    position: relative;
 }
 
 .personal-image {
@@ -94,4 +94,25 @@ body {
 
 }
 
+/* FOOTER SECTION */
+footer {
+    width: 100%;
+    display: block;
+    background-color: #141929;
+    position: absolute;
+    bottom: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.icon-wrapper {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-link {
+    padding: 13px;
+}
 
